@@ -8,7 +8,7 @@ import courseRouter from "./routes/CourseRoute..js";
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Make sure this is the correct frontend URL
+  origin: "https://learn-sphere-zeta.vercel.app", // Make sure this is the correct frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"], // You can expand this if needed
   credentials: true, // Make sure to allow credentials (cookies)
   allowedHeaders: ["Content-Type", "Authorization", "Cookie"], // Include Cookie in allowed headers
